@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="">
+    <link rel="stylesheet" type="" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="" crossorigin="">
+    <link rel="stylesheet" type="" href="">
+    <link rel="stylesheet" type="" href="">
+      <title>Chat app</title>
+      <style>
+        body{
+        }
+        .MenuCatalog{
+        }
+        .IconPosition{
+        }
+        @media screen and (max-width: 768px) {
+          .ChatPage {
+          }
+          .ChatPageShowButton {
+          }
+        }
+      </style>
+
+      {% block css %}{% endblock %}
+
+  </head>
+
+  <body>
+    
+    <h1>hello django chat</h1>
+    {% block content %}{% endblock %}
+    
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  {% block link %}{% endblock %}
+
+  <script>
+    var app = new Vue({
+    })
+
+  </script>
+
+  <script src=""></script>
+  <script src=""></script>
+  <script src=""></script>
+
+</html>
